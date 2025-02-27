@@ -257,7 +257,7 @@
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:2|"Anon."%.}{ (%Year|"n.d."%{%YearSuffix%})}{ '%Title|ShortTitle%',}{ &lt;i&gt;%JournalName%&lt;/i&gt;,}{ [%Medium%].{{%Day%} %Month:s%,}}{ %Volume%{(%Issue%)},}{ (%Issue%),}{ %Pages:pp.:pp.:a2%.}{. %Comments%.}{ Available at: &lt;u&gt;%URL:l%&lt;/u&gt;}{ [Accessed{{ %DayAccessed%} %MonthAccessed:s%} %YearAccessed%]}.{ %Comments%.}</format>
+          <format>{%Author:2|"Anon."%.}{ (%Year|"n.d."%{%YearSuffix%})}{ '%Title|ShortTitle%',}{ &lt;i&gt;%JournalName%&lt;/i&gt;,}{ [%Medium%].{{%Day%} %Month:s%,}}{ %Volume%{(%Issue%)},}{ (%Issue%),}{ %Pages:pp.:pp.:a2%.}{. %Comments%.}{ Available at: &lt;u&gt;%URL:l%&lt;/u&gt;}{ (Accessed:{{ %DayAccessed%} %MonthAccessed:s%} %YearAccessed%)}.{ %Comments%.}</format>
         </column>
         <sortkey>{%Author:0|"Anon."%}{%Year|"n.d."%}{%Title:a|ShortTitle:a%}</sortkey>
       </source>
