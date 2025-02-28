@@ -219,7 +219,7 @@
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:2|"Anon."%.}{ (%Year:r|"n.d."%{%YearSuffix%})}{ %Title|ShortTitle%.}{ In{ %Editor:3%} &lt;i&gt;%ConferenceName%&lt;/i&gt;.}{ %City|CountryRegion%{, %CountryRegion%}}{, {{%Day%} %Month:s%} %Year%.}{ %Publisher%}.{ %Comments%.}</format>
+          <format>{%Author:2|"Anon."%.}{ (%Year:r|"n.d."%{%YearSuffix%})}{ '%Title|ShortTitle%',}{ In{ %Editor:3%} &lt;i&gt;%ConferenceName%&lt;/i&gt;.}{ %City|CountryRegion%{, %CountryRegion%}}{, {{%Day%} %Month:s%} %Year%.}{ %Publisher%}. { Available at: &lt;u&gt;%URL:l%&lt;/u&gt;} { (Accessed:{{ %DayAccessed%} %MonthAccessed:s%} %YearAccessed%)} { %Comments%.}</format>
         </column>
         <sortkey>{%Author:0|Editor:0|"Anon."%}{%Year|"n.d."%}{%Title:a|ShortTitle:a%}</sortkey>
       </source>
