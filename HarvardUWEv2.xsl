@@ -228,7 +228,7 @@
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:2|InternetSiteTitle|"Anon."%.}{ (%Year|"n.d."%{%YearSuffix%})}{ &lt;i&gt;%Title%&lt;/i&gt;}{ [%Medium|"Online"%].}{ %City|CountryRegion|ProductionCompany|Publisher%{, %CountryRegion%}{: %ProductionCompany|Publisher%}}{ (%Version%)}{ Available at: &lt;u&gt;%URL:l%&lt;/u&gt;}{ (Accessed:{{ %DayAccessed%} %MonthAccessed:s%} %YearAccessed%)}.{ %Comments%.}</format>
+          <format>{%Author:2|InternetSiteTitle|"Anon."%.}{ (%Year|"n.d."%{%YearSuffix%})}{ &lt;i&gt;%Title%&lt;/i&gt;}{ %City|CountryRegion|ProductionCompany|Publisher%{, %CountryRegion%}{: %ProductionCompany|Publisher%}}{ (%Version%)}{ Available at: &lt;u&gt;%URL:l%&lt;/u&gt;}{ (Accessed:{{ %DayAccessed%} %MonthAccessed:s%} %YearAccessed%)}.{ %Comments%.}</format>
         </column>
         <sortkey>{%Author:0|InternetSiteTitle:a|"Anon."%}{%Year|"n.d."%}{%Title:a%}</sortkey>
       </source>
@@ -246,7 +246,7 @@
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:2|"Anon."%.}{ (%Year|"n.d."%{%YearSuffix%})}{ &lt;i&gt;%Title|InternetSiteTitle%&lt;/i&gt;}{ [%Medium|"Online"%].}{ (%Version%)}{ Available from: &lt;u&gt;%URL:l%&lt;/u&gt;}{ (Accessed:{{ %DayAccessed%} %MonthAccessed:s%} %YearAccessed%)}.{ %Comments%.}</format>
+          <format>{%Author:2|"Anon."%.}{ (%Year|"n.d."%{%YearSuffix%})}{ &lt;i&gt;%Title|InternetSiteTitle%&lt;/i&gt;}{ (%Version%)}{ Available from: &lt;u&gt;%URL:l%&lt;/u&gt;}{ (Accessed:{{ %DayAccessed%} %MonthAccessed:s%} %YearAccessed%)}.{ %Comments%.}</format>
         </column>
         <sortkey>{%Author:0|"Anon."%}{%Year|"n.d."%}{%Title:a|InternetSiteTitle:a%}</sortkey>
       </source>
@@ -257,7 +257,7 @@
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:2|"Anon."%.}{ (%Year|"n.d."%{%YearSuffix%})}{ '%Title|ShortTitle%',}{ &lt;i&gt;%JournalName%&lt;/i&gt;,}{ [%Medium%].{{%Day%} %Month:s%,}}{ %Volume%{(%Issue%)},}{ (%Issue%),}{ %Pages:pp.:pp.:a2%.}{. %Comments%.}{ Available at: &lt;u&gt;%URL:l%&lt;/u&gt;}{ (Accessed:{{ %DayAccessed%} %MonthAccessed:s%} %YearAccessed%)}.{ %Comments%.}</format>
+          <format>{%Author:2|"Anon."%.}{ (%Year|"n.d."%{%YearSuffix%})}{ '%Title|ShortTitle%',}{ &lt;i&gt;%JournalName%&lt;/i&gt;,}{ [%Medium%].{{%Day%} %Month:s%,}}{ %Volume%{(%Issue%)},}{ (%Issue%),}{ %Pages:pp.:pp.:a2%.}{ Available at: &lt;u&gt;%URL:l%&lt;/u&gt;}{ (Accessed:{{ %DayAccessed%} %MonthAccessed:s%} %YearAccessed%)}.{ %Comments%.}</format>
         </column>
         <sortkey>{%Author:0|"Anon."%}{%Year|"n.d."%}{%Title:a|ShortTitle:a%}</sortkey>
       </source>
@@ -267,7 +267,7 @@
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:2|"Anon."%.}{ (%Year|"n.d."%{%YearSuffix%})}{ %StandardNumber%}{ &lt;i&gt;%Title|ShortTitle%&lt;/i&gt;.}{ %ThesisType%.}{ %City|CountryRegion%{, %CountryRegion%}{: %Publisher|Institution%}}{ %Publisher|Institution%}.{ %Comments%.}</format>
+          <format>{%Author:2|"Anon."%.}{ (%Year|"n.d."%{%YearSuffix%})}{ %StandardNumber%}{ &lt;i&gt;%Title|ShortTitle%&lt;/i&gt;.}{ %ThesisType%.}{ %City|CountryRegion%{, %CountryRegion%}{: %Publisher|Institution%}}{ %Publisher|Institution%}{ Available from: &lt;u&gt;%URL:l%&lt;/u&gt;}{ (Accessed:{{ %DayAccessed%} %MonthAccessed:s%} %YearAccessed%)}.{ %Comments%.}</format>
         </column>
         <sortkey>{%Author:0|"Anon."%}{%Year|"n.d."%}{%Title:a|ShortTitle:a%}</sortkey>
       </source>
